@@ -65,7 +65,7 @@ button {
 .nav__list__link {
   color: #150C01;
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -100,14 +100,6 @@ button {
   background-position: right center;
   width: 100%;
 }
-@media (max-width:700px) {
-  .nav__list {
-    display: none;
-  }
-  .nav__humburger{
-    display: block;
-  }
-}
 
 @media (max-width:1040px) {
   .hero {
@@ -118,6 +110,14 @@ button {
   }
 }
 
+@media (max-width:750px) {
+  .nav__list {
+    display: none;
+  }
+  .nav__humburger{
+    display: block;
+  }
+}
 
 .hero__left {
   padding: 130px 0px 150px;
